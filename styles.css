@@ -30,7 +30,7 @@ body {
      - Add 20px of padding on all sides
      - Center-align the text
 --------------------------------------------------------------- */
-header #main-header{
+#main-header{
   background-color:#2c3e50;
   color: #ffffff;
   padding:20px;
