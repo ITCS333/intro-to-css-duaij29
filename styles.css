@@ -100,7 +100,11 @@ main{
      - Add a bottom border: 2px solid #f39c12
      - Add 8px of padding on the bottom only
 --------------------------------------------------------------- */
-
+h2{
+  color: #2c3e50;
+  border-bottom: 2px solid #f39c12;
+  padding-bottom:8px;
+}
 
 
 /* ---------------------------------------------------------------
@@ -110,7 +114,11 @@ main{
      - Set the line-height to 1.8
      - Set the font-style to italic
 --------------------------------------------------------------- */
-
+.intro {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-style: italic;
+}
 
 
 /* ---------------------------------------------------------------
@@ -124,7 +132,17 @@ main{
      - Add a 4px margin on the bottom
      - Add a left border: 4px solid #2c3e50
 --------------------------------------------------------------- */
+.hobbies-list{
+  list-style: none;
+  padding: 0;
+}
 
+.hobbies-list li{
+  background-color:#ffffff;
+  padding: 10px;
+  margin-bottom: 4px;
+  border-left: 4px solid #2c3e50;
+}
 
 
 /* ---------------------------------------------------------------
@@ -134,7 +152,11 @@ main{
      - Change its text color to #ffffff
      - Change its left border color to #e67e22
 --------------------------------------------------------------- */
-
+.highlight{
+  background-color: #f39c12;
+  color: #ffffff;
+  border-left: #e67e22;
+}
 
 
 /* ---------------------------------------------------------------
